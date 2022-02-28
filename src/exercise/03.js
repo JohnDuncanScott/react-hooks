@@ -27,7 +27,7 @@ function Display({name, animal}) {
 }
 
 function App() {
-  const [name, setName] = React.useState('')
+  const [name, setName] = React.useState('');
   const [animal, setAnimal] = React.useState('');
 
   return (
